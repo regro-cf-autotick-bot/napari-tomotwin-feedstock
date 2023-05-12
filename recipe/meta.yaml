@@ -1,5 +1,5 @@
 {% set name = "napari-tomotwin" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-tomotwin-{{ version }}.tar.gz
-  sha256: 9ae2b070b548b29c6407ba454ace12ca9ca10349867a862b957b753a1438784c
+  sha256: ee747c0351b09b1a6f4837b3a3ed4891806f11fccbbcf9bcd661208b3f0042a2
 
 build:
   noarch: python
