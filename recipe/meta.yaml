@@ -20,18 +20,21 @@ requirements:
     - python >=3.10
     - setuptools-scm
   run:
+    - magicgui
     - matplotlib-base
+    - napari
+    - napari-clusters-plotter >=0.7.2
     - numpy
     - pandas
     - python >=3.10
-    - tqdm
+    - tqdm    
 
 test:
   imports:
     - napari_tomotwin
   commands:
     - pip list
-    - pip check
+    # - pip check
   requires:
     - pip
 
