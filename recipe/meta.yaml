@@ -27,7 +27,7 @@ requirements:
     - numpy
     - pandas
     - python >=3.10
-    - tqdm    
+    - scipy
 
 test:
   imports:
