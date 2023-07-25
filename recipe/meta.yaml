@@ -23,7 +23,7 @@ requirements:
     - magicgui
     - matplotlib-base
     - napari
-    - napari-clusters-plotter >= 0.7.2
+    - napari-clusters-plotter >=0.7.2
     - numpy
     - pandas
     - python >=3.10
