@@ -22,6 +22,7 @@ requirements:
   run:
     - magicgui
     - matplotlib-base
+    # - mrcfile  # Used in tests only
     - napari
     - napari-clusters-plotter >=0.7.2
     - numpy
@@ -34,15 +35,16 @@ test:
     - napari_tomotwin
   commands:
     - pip list
-    # - pip check
+    - pip check
   requires:
     - pip
 
 about:
-  home: https://github.com/MPI-Dortmund/napari-tomotwin
+  home: https://pypi.org/project/napari-tomotwin
   summary: Several tools for the work with TomoTwin
   license: MPL-2.0
   license_file: LICENSE
+  dev_url: https://github.com/MPI-Dortmund/napari-tomotwin
 
 extra:
   recipe-maintainers:
