@@ -28,6 +28,7 @@ requirements:
     - numpy
     - pandas
     - python >=3.10
+    - qtpy
     - scipy
 
 test:
